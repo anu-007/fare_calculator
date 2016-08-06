@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+   <title>fare calculator</title>
+</head>
+<body>
+  <h1>FARE CALCULATOR</h1>
+  <div id="maparea" style="height:600px;width:1800px">
+  </div>
+<br>
+<input type="textbox" id="start">Start</input>
+<br>
+<input type="textbox" id="end">End</input>
+<br>
+<button id="showdir">Show</button>
+<h2>total distance</h2>
+<h3 id="ttldist"></h3>
+<br>
+<h2>total fare</h2>
+<h3 id="ttltime"></h3>
+<br>
+<h2>taxi charges(in inr)</h2>
+<h3 id="txichg"></h3>
+
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY&callback=initMap" async defer></script>
+<script src="map.js"></script>
+</body>
+</html>
